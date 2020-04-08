@@ -63,7 +63,12 @@ characters it can't be posted to twitter. That works out to around 70 nodes.
 * Cppnx uses Javascript (via Clojurescript) and WebGL which works in all
   modern browsers as far as I know, and is fast enough for animation.
 
+## Local requirements
 
+- [JDK](https://jdk.java.net/13/)
+- [Leiningen](https://leiningen.org/)
+- [Maven](https://maven.apache.org/install.html)
+- [Gradle](https://gradle.org/install/)
 
 ## Local setup
 

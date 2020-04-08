@@ -58,8 +58,8 @@
     (.setQueryData uri qd)
     (str uri)))
 
-(defonce init-oauth
-  (.initialize js/OAuth "G8cnIzClY3nbnOniOAQzkHvMcfE"))
+; (defonce init-oauth
+;   (.initialize js/OAuth "G8cnIzClY3nbnOniOAQzkHvMcfE"))
 
 (defn data-uri->blob
   [data-uri]
