@@ -1,0 +1,30 @@
+{
+  "name": "cppnx",
+  "version": "1.0.0",
+  "description": "A web ui for exploring [Compositional Pattern Producing Networks](http://eplex.cs.ucf.edu/publications/2007/stanley-gpem07).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/readme55/cppnx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/readme55/cppnx/issues"
+  },
+  "homepage": "https://github.com/readme55/cppnx#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+        "start": "lein figwheel",
+        "clean": "lein clean",
+        "production": "lein do clean, cljsbuild once min",
+        "deploy": "node node_modules/gh-pages/bin/gh-pages.js -d resources/public/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

@@ -14,3 +14,4 @@ pom.xml
 .gradle/
 lein.bat
 ImportToCmd.bat
+node_modules/
